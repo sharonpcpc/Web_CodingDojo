@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(241, 241, 186);
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    width: 600px;
+}
+
+h1 {
+    display: inline-block;
+    height: 100px;
+    width: 600px;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 100px
+}
+
+#img1 {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 300px;  
+    height: 300px;  
+}
+
+.logos {
+    display: flex;
+    height: 30px;
+    padding: 10px;
+    justify-content: space-around
+}   
+
+p {
+    margin: 1px;
+}
+
+h2 {
+    text-align: center;
+    font-style: oblique;
+}
+
+#technologies_table {
+    display: flex;
+    justify-content: center;
+    table-layout: fixed;
+    letter-spacing: 1px;
+    border: solid rgb(195, 255, 30) 
+}
+
+#contactme {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+    text-align: center;
+}
+
+table td,
+table th {
+    border: 1px solid #110522;
+    text-align: center;
+    padding: 2px 0px;
+}

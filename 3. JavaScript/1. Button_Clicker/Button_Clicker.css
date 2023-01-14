@@ -1,0 +1,143 @@
+* {
+    /* outline: blue 1px solid; */
+    margin: 0px 5%;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* START NAVIGATION BAR */
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 210, 210);
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid whitesmoke;
+    float: left;
+    color: gray;
+    width: 40%;
+    height: 20px;
+    background: #f1f1f1;
+}
+
+.content {
+    margin: 30px 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn_Log_in {
+    background-color: #1c649e;
+    width: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 4px 4px black;
+}
+
+/* END NAVIGATION BAR */
+
+
+
+
+
+/* START LEFT column */
+#left_bar {
+    flex: 2;
+    margin: 0px;
+}
+
+.left_bar_ninjas {
+    display: flex;
+    margin: 0px 0px 30px;
+    padding: 0px 20px 0px 0px;
+    outline: 2px gray solid;
+}
+
+.text_inside_left_bar {
+    width: 150px;
+    height: 150px;
+    text-align: auto;
+}
+
+#left_bar_ninjas_top {
+    width: 200px;
+}
+
+.ninjas {
+    font-style: italic;
+}
+
+.noun {
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plural {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.long_text_inside_left_bar {
+    margin: 0px 40px 0px 20px;
+    padding: 50px 0px;
+    text-align: left;
+}
+
+.longtext {
+    text-decoration: underline;
+    color: rgb(120, 205, 247);
+}
+
+.btn_for_ninjas {
+    margin: 20px 20px;
+    background-color: #dedb02;
+    padding: 10px 0px 0px 0px;
+    width: 65%;
+    height: 20%;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    box-shadow: 3px 4px;
+}
+/* END LEFT column */
+
+
+
+/* START Right column */
+.right_bar {
+    outline: 2px gray solid;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 0px;
+    flex: 1;
+    height: 150px;
+    text-align: left;
+}
+
+#Button_Add_Definition {
+    margin: 20px 60px;
+    padding: 5px 10px;
+    background-color: rgb(10, 218, 10);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    box-shadow: 3px 4px;
+}
+/* END Right column */

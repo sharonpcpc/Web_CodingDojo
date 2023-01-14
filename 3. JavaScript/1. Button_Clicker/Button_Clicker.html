@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Button_Clicker.css">
+    <title>Dojonary</title>
+    <script defer src="Button_Clicker.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <h1>Dojonary</h1>
+        </div>
+        <div id="search">
+            <p>Search</p>
+        </div>      
+        <button id="btn_Log_in" onclick="ChangeToLogOut(this)">Log in</button>
+    </div>
+    <div class="content">
+        <div id="left_bar">
+            <div class="left_bar_ninjas">
+                <div id="left_bar_ninjas_top">
+                    <div class="text_inside_left_bar">
+                        <h1>Ninja</h1>
+                        <div class="noun">
+                            <p>noun</p>
+                        </div>
+                        <div class="plural">
+                            <p>Plural:<span class="ninjas">ninjas</span></p>
+                        </div>
+                        <button class="btn_for_ninjas" onclick="NinjaWasLiked(this)">13 likes</button>
+                    </div>
+                </div>
+                <div class="long_text_inside_left_bar">
+                    <p>A practicionaer skilled in the<span class="longtext">Japanese</span> art of<span class="longtext">ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="left_bar_ninjas">
+                <div id="left_bar_ninjas_bottom">
+                    <div class="text_inside_left_bar">
+                        <h1>Ninja</h1>
+                        <div class="noun">
+                            <p>noun</p>
+                        </div>
+                        <div class="plural">
+                            <p>Plural:<span class="ninjas">ninjas</span></p>
+                        </div>
+                        <button class="btn_for_ninjas" onclick="NinjaWasLiked(this)">37 likes</button>
+                    </div>
+                </div>
+                <div class="long_text_inside_left_bar">
+                    <p>A practicionaer skilled in the<span class="longtext">Japanese</span> art of<span class="longtext">ninjutsu</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="right_bar">
+            <div>
+                <h2>Dojonary is defined by you</h2>
+            </div>
+            <div>
+                <button  id="Button_Add_Definition" onclick="ChangeToEmpty(this)">Add definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
