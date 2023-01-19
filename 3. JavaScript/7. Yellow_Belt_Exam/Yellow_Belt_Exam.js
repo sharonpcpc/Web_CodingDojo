@@ -13,3 +13,11 @@
     function removeLogo(element){
         element.remove();
     }
+
+    function AddShadow(element){
+        element.classList.add("shadowforcontent_3_p")
+    }
+
+    function RemoveShadow(element){
+        element.classList.remove ("shadowforcontent_3_p")
+    }

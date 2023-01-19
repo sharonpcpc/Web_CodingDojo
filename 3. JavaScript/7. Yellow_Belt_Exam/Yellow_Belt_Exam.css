@@ -25,6 +25,14 @@
     padding: 0px 5px 0px 20px;
 }
 
+.shadowforcontent_3_p {
+    box-shadow: 10px 10px 10px rgb(42, 40, 40);
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+
 /* START NAVIGATION BAR  */
 #Nav_Bar {
     background-color: #eae9e4;
