@@ -1,0 +1,92 @@
+* {
+    /* outline: blue solid 1px; */
+    margin: 0px;
+    padding: 0p;
+}
+
+.rightsidedivs {
+    margin: 0px 0px 10px 0px;
+    /* padding: 10px; */
+}
+
+.btn {
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px 2px #000000;
+    background-color: rgb(4, 129, 129);
+    color: white;
+    font-size: 18px;
+    margin: 0px 5px;
+}
+
+.rightsidedivs {
+    margin: 0px 0px 20px 0px;
+    outline: 3px solid black;
+}
+
+.div1_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.div1_2 {
+    padding: 10px;
+}
+
+.underline {
+    color: rgb(81, 139, 253);
+    text-decoration: underline;
+}
+
+
+#headbar {
+    margin: 0% 10% 5%;
+    padding: 1% 1%;
+    background-color: black;
+    color: white;
+}
+
+#maincontainer {
+    margin: 0% 10% 5%;
+    /* padding: 1; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftsideinfo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 60px;
+    text-align: center;
+    margin: 0px 0px;
+    outline: 3px solid black;
+}
+
+img {
+    margin: 10px 10px 50px;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    
+}
+
+#rightsideinfo {
+    display: flex;
+    flex: 4;
+    margin: 0px 0px 0px 50px;
+    flex-direction: column;
+}
+
+
+
+
+/* #div1 {
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    outline: solid 2px black;
+} */
+
