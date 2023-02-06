@@ -14,15 +14,3 @@ function add2() {
     CountLikes2Element.innerText = CountLikes2 + " like(s)"
     console.log(CountLikes2)
 }
-
-
-var CountLikes3 = 1
-var CountLikes3Element = document.querySelector("#CountLikes3")
-function add3() {
-    CountLikes3++;
-    CountLikes3Element.innerText = CountLikes3 + " like(s)"
-    console.log(CountLikes3)
-}
-
-
-

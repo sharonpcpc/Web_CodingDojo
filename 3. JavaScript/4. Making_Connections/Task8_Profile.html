@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task8_Profile.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="div-head-bar">
+        <div id="div-letter-bar">
+            <h1>Profile</h1>
+            <p>Home</p>
+            <p id="p-letter-bar-bold">My Profile</p>
+            <p>Find Connections</p>
+        </div>
+        <div id="sign-out-button">
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="main-contianer-left-column">
+            <div id="left-column-top-div">
+                <div id="left-colum-top-profile-head">
+                    <img src="jane-m.jpg" alt="jane´s-picture" id="jane´s-picture">
+                </div>
+                <div id="left-colum-top-profile">
+                    <h2 id="profilename">Jane Doe</h2>
+                    <div id="map-marker">
+                        <img class="icons" src="map-marker.png" alt="map-marker">
+                        <p>Seattle</p>
+                    </div>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the internet</p>
+                    <div id="gear-icon">
+                        <img class="icons" src="gear.png" alt="gear-icon">
+                        <p onclick="clickeditprofile()"><a href=""></a>edit profile</p>
+                    </div>
+                </div>
+            </div>
+            <div id="left-column-bottom-div">
+                <div id="left-colum-botton-profile-head">
+                    <h3>Education</h3>
+                </div>
+                <div id="left-colum-botton-profile">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <h4>Triple black belt in Python, MERN, and C#</h4>
+                    <p>Dec 2019 - Mar 2020</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-container-right-column">
+            <div class="move-container-right-column">
+                <div id="right-colum-top-profile-head">
+                    <h3 id="number3">2</h3>
+                    <h3 id="connectionsrequests">Connection Requests</h3>
+                </div>
+                <div class="right-column-top-div">
+                    <div id="todd-s-profile">
+                        <img src="todd-s.jpg" alt="todd-s-profile">
+                        <p>Todd E</p>
+                        <img src="accept-circle.png" alt="accept-circle-icon" onclick='AcceptInvitation("#number3-1")'>
+                        <img src="close-circle.png" alt="reject-circle-icon" onclick="RemoveInvitation1()">
+                    </div>
+                    <div id="phil-s-profile">
+                        <img src="phil-s.jpg" alt="phil-s-profile">
+                        <p>Phill K</p>
+                        <img src="accept-circle.png" alt="accept-circle-icon" onclick="RemoveInvitation2()">
+                        <img src="close-circle.png" alt="reject-circle-icon" onclick="RemoveInvitation2()">
+                    </div>
+                </div>
+                <div id="right-colum-bottom-connections-head">
+                    <h3 id="number500">418</h3>
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="right-colum-connections-profile">
+                    <div id="adrien-s-profile">
+                        <img src="adrien-s.jpg" alt="adrien-s-profile">
+                        <p>Adrien D</p>
+                        <img src="accept-circle.png" alt="accept-circle-icon">
+                        <img src="close-circle.png" alt="reject-circle-icon">
+                    </div>
+                    <div id="anne-s-profile">
+                        <img src="anne-s.jpg" alt="anne-s-profile">
+                        <p>Anne J</p>
+                        <img src="accept-circle.png" alt="accept-circle-icon">
+                        <img src="close-circle.png" alt="reject-circle-icon">
+                    </div>
+                    <div id="alayne-s-profile">
+                        <img src="alayne-s.jpg" alt="alayne-s-profile">
+                        <p>Alayne T</p>
+                        <img src="accept-circle.png" alt="accept-circle-icon">
+                        <img src="close-circle.png" alt="reject-circle-icon">
+                    </div>
+                    <div id="Arry-s-profile">
+                        <img src="arry-s.jpg" alt="Arry-s-profile">
+                        <p>Arry Y</p>
+                        <img src="accept-circle.png" alt="accept-circle-icon">
+                        <img src="close-circle.png" alt="reject-circle-icon">
+                    </div>
+                </div>
+                <div id="right-colum-connections-line">
+                    <p>View More</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

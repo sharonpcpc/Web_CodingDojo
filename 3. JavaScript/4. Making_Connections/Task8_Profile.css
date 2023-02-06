@@ -1,0 +1,260 @@
+* {
+    /* outline: 1px blue solid; */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+/* START BLACK BAR */
+.div-head-bar {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+#div-letter-bar {
+    display: flex;
+    flex: 3;
+    margin: 0% 0% 0% 15%;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+#p-letter-bar-bold {
+    font-weight: bold;
+}
+
+#sign-out-button {
+    display: flex;
+    flex: 2;
+    margin: 0% 15% 0% 0%;
+    padding: 15px 0px;
+    justify-content: right;
+    align-items: center;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgb(4, 141, 141);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* END BLACK BAR */
+
+
+
+/* START MAIN CONTAINER LEFT COLUMN */
+.main-container {
+    display: flex;
+    margin: 3% 15%;
+    color: black;
+}
+
+.main-contianer-left-column {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+#left-column-top-div {
+    margin: 0px 0px 40px 0px;
+}
+
+#left-colum-top-profile-head {
+    background-color: rgb(4, 141, 141);
+    padding: 40px;
+    outline:  rgb(4, 141, 141) 1px solid;   
+}
+
+#jane´s-picture {
+    border-radius: 50%;
+    margin: 1px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 225px;
+}
+
+#left-colum-top-profile {
+    margin: 0px 0px 20px 0px;
+    padding: 50px 30px 5px;
+    outline: gray 1px solid;
+}
+
+#map-marker {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin: 2px 5px 2px 0px;
+    width: 25px;
+    height: 30px;
+}
+
+#gear-icon {
+    display: flex;
+    align-items: center;
+    color: rgb(68, 119, 190);
+    text-decoration: underline;
+}
+
+p {
+    margin: 0px 0px 5px 0px;
+
+}
+
+#left-column-bottom-div {
+    margin: 0px 0px 40px 0px;
+}
+
+#left-colum-botton-profile-head {
+    background-color: rgb(53, 62, 62);
+    outline:  rgb(53, 62, 62) 1px solid;
+    padding: 16px 30px;
+    color: white;
+}
+
+#left-colum-botton-profile {
+    margin: 0px 0px 20px 0px;
+    padding: 20px 30px 30px;
+    outline: gray 1px solid;
+}
+/* END MAIN CONTAINER LEFT COLUMN */
+
+
+/* START MAIN CONTAINER RIGHT COLUMN */
+.main-container-right-column {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 0%;
+}
+
+.move-container-right-column {
+    margin: 0px 0px 0px 30px;
+    
+}
+
+#right-colum-top-profile-head {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(53, 62, 62);
+    color: white;
+    outline: gray 1px solid;
+}
+
+#number3 {
+    width: 20px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 50%;
+    background-color: rgb(237, 232, 232);
+    color: black;
+    text-align: center;
+}
+
+.right-column-top-div {
+    outline: gray 1px solid;
+}
+
+#todd-s-profile {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+#phil-s-profile {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+.right-colum-connections-profile {
+    outline: gray 1px solid;
+}
+
+#right-colum-bottom-connections-head {
+    display: flex;
+    margin: 35px 0px 0px 0px;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(53, 62, 62);
+    color: white;
+    outline: gray 1px solid;
+}
+
+#number500 {
+    width: 80px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 50%;
+    background-color: rgb(237, 232, 232);
+    color: black;
+    text-align: center;
+}
+
+#adrien-s-profile{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+#anne-s-profile {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+#alayne-s-profile {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+#Arry-s-profile {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    margin: 1px;
+    width: 40px;
+    height: 40px;
+}
+
+#right-colum-connections-line {
+    outline: gray 1px solid;
+    padding: 20px;
+    align-items: center;
+    text-decoration: underline;
+    color: blue;
+}
+/* END MAIN CONTAINER RIGHT COLUMN */
+
+
+
+
+
+
+
+
+
+
